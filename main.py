@@ -17,6 +17,8 @@ class Vehicle:
             self.options.append('power locks')
         if input('Does your vehicle have remote start(y/n): ').lower() == 'y':
             self.options.append('remote start')
+          if input('Does your vehicle have manual transmission(y/n): ').lower() == 'y':
+            self.options.append('manual transmission')
         if input('Does your vehicle have backup camera(y/n): ').lower() == 'y':
             self.options.append('backup camera')
         if input('Does your vehicle have bluetooth(y/n): ').lower() == 'y':
